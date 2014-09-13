@@ -1,0 +1,66 @@
+body {
+	width: 600px;
+	height: 600px;
+	margin: auto;
+}
+header {
+	width: 100%;
+	height: 30%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.box {
+	width: calc(33.33% - 10px);
+	height: 100%;
+	float: left;
+	margin: 5px 5px 10px 5px;
+}
+.one {
+	background-color: black;
+}
+.two {
+	background-color: red;
+}
+.three {
+	background-color: blue;
+}
+.text {
+	width: inherit;
+	text-align: left;
+	margin: 10px;
+}
+.four {
+	background-color: blue;
+	width: calc(70% - 0px);
+	height: 20%;
+	float: left;
+}
+.five {
+	background-color: red;
+	width: calc(30% - 0px);
+}
+.container {
+	width: 100%;
+	height: 30%;
+	float: left;
+	margin: 10px 0px 10px 0px;
+}
+.uno {
+	background-color: black;
+	width: calc(58% - 0px);
+	height: inherit;
+	float: left;
+}
+.dos {
+	width: calc(42% - 0px);
+	height: inherit;
+	background-color: blue;
+	float: right;
+}
+.tres {
+	width: calc(30% - 0px);
+	height: 100%;
+	background-color: red;
+	margin: 0 auto;
+	display: inline-block;
+}
